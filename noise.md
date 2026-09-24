@@ -1,3 +1,16 @@
+# Table of contents
+- [Table of contents](#table-of-contents)
+- [The Noise Protocol Framework](#the-noise-protocol-framework)
+  - [Cryptographic primitives](#cryptographic-primitives)
+  - [Handshake patterns](#handshake-patterns)
+  - [Message tokens](#message-tokens)
+    - [Keys tokens](#keys-tokens)
+    - [DH calculation tokens](#dh-calculation-tokens)
+  - [Noise\_XX](#noise_xx)
+  - [Noise\_IK](#noise_ik)
+
+<br>
+
 # The Noise Protocol Framework
 The **Noise Protocol Framework**, sometimes referred to as **Noise** or **Noise Framework**, is a public domain cryptographic framework for creating secure communication protocols based on **Diffie–Hellman key exchange**.<br>
 
@@ -98,7 +111,7 @@ All Noise patterns in terms of **message tokens** are [**here**](https://noiseex
 
 <br>
 
-### Keys tokens**
+### Keys tokens
 - `e` (**ephemeral**): the **sender** generates **new ephemeral DH key pair** and sends the **public key**;
 - `s` (**static**): the **sender** sends **static public key** (often encrypted);
   - if a secure channel has already been established by previous tokens, this key is automatically encrypted;
