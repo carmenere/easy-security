@@ -405,7 +405,7 @@ There are 2 mode of **CFB**:
 <br>
 
 # OFB
-![OFB](/img/CBC.png)
+![OFB](/img/OFB.png)
 
 <br>
 
@@ -429,7 +429,7 @@ There are 2 mode of **CFB**:
 - $`O_{2} = E_{K}(O_{1})`$
 - $`O_{3} = E_{K}(O_{2})`$
 - ...
-- $`O_{i = E_{K}(O_{i-1})}`$
+- $`O_{i} = E_{K}(O_{i-1})`$
 
 <br>
 
